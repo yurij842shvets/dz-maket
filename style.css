@@ -1,0 +1,31 @@
+* {
+    margin: 25px;
+}
+a:nth-child(1) {
+    color: #03A9F4;
+}
+a:nth-child(n+2) {
+    color: #7D7D7D;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-around;
+}
+p:nth-of-type(1) {
+    color: #B4AD9E;
+    text-transform: uppercase;
+}
+h1 {
+    color: #626262;
+    font-family: 'Playfair Display', serif; 
+}
+p:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+}
